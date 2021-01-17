@@ -1,0 +1,9 @@
+name = "matrix-state-cache-worker"
+type = "webpack"
+routes = [
+  "matrix.woke.net/_matrix/client/r0/rooms/!doYmXmbbmJCuwjKvff%253Awoke.net/state/net.woke.anchor.view/*",
+  "matrix.woke.net/_matrix/client/r0/rooms/!doYmXmbbmJCuwjKvff%253Awoke.net/state/m.room.topic/*",
+]
+
+[vars]
+TTL = 20

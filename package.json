@@ -1,0 +1,18 @@
+{
+  "name": "matrix-state-cache-worker",
+  "version": "1.0.0",
+  "description": "Cache state keys from Matrix to reduce Synapse load",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write *.js",
+    "build": "wrangler build",
+    "dev": "wrangler dev",
+    "publish": "wrangler publish"
+  },
+  "author": "Max Goodhart <c@chromakode.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/wrangler": "^1.13.0",
+    "prettier": "^2.0.5"
+  }
+}
